@@ -1,0 +1,45 @@
+/* CSS for the table */
+.table {
+  width: 500;
+  border-collapse: collapse !important;
+  display: inline-table;
+  margin: 1em;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  margin: 0;
+}
+
+#head tr {
+
+}
+
+.table th,
+.table td {
+  border: none;
+  border-top: 2px solid black;
+  padding: 8px;
+  margin: 0;
+}
+
+.table th {
+  background-color: #a71c9b;
+  color: white;
+  font-weight: bold;
+}
+
+/* CSS for the table body */
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* CSS for the table footer */
+.table tfoot td {
+  background-color: #a71c9b;
+  color: white;
+  font-style: italic;
+  border-top: 2px solid black;
+  text-align: center;
+  margin: 0;
+}
